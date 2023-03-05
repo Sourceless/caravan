@@ -22,7 +22,6 @@ and 8 is the average amongst commoners. 0 represents complete enfeeblement
 in some regard. 20 represents being the best possible, given mortal constraints.
 
 There are three attributes:
-
 *** Body
 This attribute represents the adventurer's connection with and investment in
 their physicality.
@@ -35,11 +34,37 @@ knowledge gained through experience or education.
 This attribute represents your ability to influence others in social situations,
 and how people react when you walk into a room.
 
+** Attribute Modifiers
+When rolling against an attribute, you actually roll against an attribute modifier.
+
+To calculate the modifier, subtract 10 from your attribute score, then divide the
+result by 2. If the result is lower than 0, round it down. If it's greater than 0,
+round it up.
+
+| Attribute Score | Modifier |
+|-----------------+----------|
+|             0-1 |          |
+|             2-3 |          |
+|             4-5 |          |
+|             6-7 |          |
+|             8-9 |          |
+|              10 |          |
+|           11-12 |          |
+|           13-14 |          |
+|           15-16 |          |
+|           17-18 |          |
+|           19-20 |          |
+
+
 ** Skills
 Skills are ways for your character to interact with the world. Each skill uses a
 combination of your abilities to determine a skill score.
 
 If you can't find a skill to fit a particular situation, use /Improvisation/.
+
+Each skill roll is based on 3 attribute rolls, which appear in brackets following
+the skill name. For example, `(BBB)` means you should make three Body rolls and
+add them together
 
 Skills:
 *** Athletics (BBB)
@@ -73,5 +98,4 @@ This is your ability to flatter and stun those around you.
 Roll 3d6 3 times and note down the result each time. These are your attribute
 points. You can choose which attributes to apply them to.
 
-If you roll beneath 20 points total, you may reroll once -- but you must keep
-the next set of scores.
+If you roll beneath 25 points total, you may reroll.
