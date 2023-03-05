@@ -1,0 +1,7 @@
+#+title: README
+
+A TTRPG about surviving in the desert.
+
+* Getting Started
+** Creating a character
+Head over to [[file:./manual/create-a-character.org][Create a Character]]

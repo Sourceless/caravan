@@ -1,0 +1,77 @@
+#+title: Create A Character
+
+* Characters in Caravan
+Player characters in Caravan are *Adventurers*. This means that they are people
+who dive into the unknown and enter the fray without fretting overly about their
+safety.
+
+Players must create characters with the drive to go on adventures.
+
+Nothing venturend, nothing gained.
+
+* Character sheet
+The character sheet is made up of a number of different parts, each of which
+affect who your character is and their abilities within the world.
+
+** Attributes
+Attributes are about your intrinsic power and potential. You can gain (and
+lose!) attribute points over time.
+
+Attributes fall in the range of 0-20. 10 is an average among adventurers,
+and 8 is the average amongst commoners. 0 represents complete enfeeblement
+in some regard. 20 represents being the best possible, given mortal constraints.
+
+There are three attributes:
+
+*** Body
+This attribute represents the adventurer's connection with and investment in
+their physicality.
+
+*** Mind
+This attribute represents intelligence and keenness of thought, as well as
+knowledge gained through experience or education.
+
+*** Presence
+This attribute represents your ability to influence others in social situations,
+and how people react when you walk into a room.
+
+** Skills
+Skills are ways for your character to interact with the world. Each skill uses a
+combination of your abilities to determine a skill score.
+
+If you can't find a skill to fit a particular situation, use /Improvisation/.
+
+Skills:
+*** Athletics (BBB)
+Athletics is your ability to exercise your raw physical prowess on the world:
+run, jump, push, pull, throw -- anything like that.
+*** Perception (BBM)
+This is your ability to spot things that might help or harm you.
+*** Performance (BBP)
+This is your ability to use your body to impress or distract others.
+*** Invention (BMM)
+This is your ability to dream up and make gadgets, traps, and all manner of
+things.
+*** Improvisation (BMP)
+This is your most general skill - your ability to make up solutions on the fly.
+*** Intimidation (BPP)
+This is your ability to make threats, explicit or otherwise.
+*** Logic (MMM)
+This is your ability to think through problems and discover knew knowledge.
+*** Negotiation (MMP)
+This is your ability to get others to meet you in the middle.
+*** Investigation (MPP)
+This is your ability to figure out what's going on by working a crowd.
+*** Charm (PPP)
+This is your ability to flatter and stun those around you.
+
+
+
+
+* Creating a new character
+** 1. Roll your attributes
+Roll 3d6 3 times and note down the result each time. These are your attribute
+points. You can choose which attributes to apply them to.
+
+If you roll beneath 20 points total, you may reroll once -- but you must keep
+the next set of scores.
