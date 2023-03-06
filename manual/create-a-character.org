@@ -17,8 +17,8 @@ affect who your character is and their abilities within the world.
 Attributes are about your intrinsic power and potential. You can gain (and
 lose!) attribute points over time.
 
-Attributes fall in the range of 0-20. 10 is an average among adventurers,
-and 8 is the average amongst commoners. 0 represents complete enfeeblement
+Attributes fall in the range of 1-20. 10 is an average among adventurers,
+and 8 is the average amongst commoners. 1 represents complete enfeeblement
 in some regard. 20 represents being the best possible, given mortal constraints.
 
 There are three attributes:
@@ -37,23 +37,21 @@ and how people react when you walk into a room.
 ** Attribute Modifiers
 When rolling against an attribute, you actually roll against an attribute modifier.
 
-To calculate the modifier, subtract 10 from your attribute score, then divide the
-result by 2. If the result is lower than 0, round it down. If it's greater than 0,
-round it up.
+Refer to the table below to convert attribute scorse to their modifiers
 
 | Attribute Score | Modifier |
 |-----------------+----------|
-|             0-1 |          |
-|             2-3 |          |
-|             4-5 |          |
-|             6-7 |          |
-|             8-9 |          |
-|              10 |          |
-|           11-12 |          |
-|           13-14 |          |
-|           15-16 |          |
-|           17-18 |          |
-|           19-20 |          |
+|               1 |       -5 |
+|             2-3 |       -4 |
+|             4-5 |       -3 |
+|             6-7 |       -2 |
+|             8-9 |       -1 |
+|           10-11 |        0 |
+|           12-13 |       +1 |
+|           14-15 |       +2 |
+|           16-17 |       +3 |
+|           18-19 |       +4 |
+|              20 |       +5 |
 
 
 ** Skills
