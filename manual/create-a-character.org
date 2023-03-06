@@ -60,9 +60,9 @@ combination of your abilities to determine a skill score.
 
 If you can't find a skill to fit a particular situation, use /Improvisation/.
 
-Each skill roll is based on 3 attribute rolls, which appear in brackets following
-the skill name. For example, `(BBB)` means you should make three Body rolls and
-add them together
+Each skill roll is based on three attribute modifiers, which appear in brackets
+following the skill name. For example, `(BBB)` means you should make a d20 roll
+with a bonus of three times the body modifier.
 
 Skills:
 *** Athletics (BBB)
@@ -89,7 +89,50 @@ This is your ability to figure out what's going on by working a crowd.
 This is your ability to flatter and stun those around you.
 
 
+** Class
+Your character's class defines the abilities they'll have access to, weapons
+they can use, and spells they can cast. In parentheses after each are their most
+important attributes.
 
+The classes are:
+*** Soldier (B)
+The Soldier is all about being an efficient killing machine. Soldiers move
+faster, hit harder, and keep coming back swinging. Outside of combat, their
+strength and endurance are of great use when it comes to surviving the harsh
+desert.
+*** Engineer (BM)
+The Engineer views combat as a problem to be solved. Engineers find weaknesses
+in their enemies and exploit them to great effect. Outside of combat, Engineers
+can use their arcanomechanical skills for a variety of uses.
+*** Strategist (MB)
+The Strategist seeks to control the battlefield, never starting a fight they
+cannot win. Strategists support and direct others to their greatest effect.
+Outside of combat, Strategists strengthen and support those around them to
+build an effective team.
+*** Mage (M)
+The Mage is all about spellcasting. Mages wrought the raw power of magic to
+create terrible and devestating speels. Outside of combat, Mages afford
+protection, study relics, and manage the day-to-day.
+*** Cleric (MP)
+The Cleric is all about devotion, Clerics take their principles in to the
+fray, protecting and smiting as is their duty. Outside of battle, clerics
+look after the physical and spiritual health of those around them.
+*** Mystic (PM)
+The Mystic is all about secrets and trickery. Mystics use their forbidden
+knowledge to trick and influence enemies. Outside of battle, the Mystic
+communes with the beyond to reveal hidden things.
+*** Performer (P)
+The Performer is all about influence. Performers stop battles before they even
+start through charm and wit. Outside of battle, Performers keep their allies in
+the good graces of locals.
+*** Spy (PB)
+The Spy is all about subterfuge. Spies target individual enemies to destroy with
+alarming violence. Outside of battle, Spies coerce, steal, and eavesdrop to
+gather information.
+*** Knight (BP)
+The Knight is all about honour and leadership. Knights lead from the front and
+encourage others to follow on their quest. Outside of battle, knights keep
+their team together and protect them.
 
 * Creating a new character
 ** 1. Roll your attributes
@@ -97,3 +140,22 @@ Roll 3d6 3 times and note down the result each time. These are your attribute
 points. You can choose which attributes to apply them to.
 
 If you roll beneath 25 points total, you may reroll.
+
+** 2. Choose a class
+Choose one of the classes above. On the class page, there is a description of
+how to set up your character for first level.
+
+** 3. Choose your starting equipment
+Take either the standard equipment on the class page, or buy equipment from the
+starting equipment list up to the value of 1000 gold. You do not keep any
+excess gold, so spend as much as you can.
+
+** 4. Describe your character
+Come up with a backstory for your character (even if it's short!), and decide
+what their goal is. Then, describe their physical attributes, such as their
+sex and gender presentation, height, weight, skin colour, eye colour, hair
+colour and style, and anything else you can think of.
+
+Remember that your character must be ready to survive long and arduous
+journeys, so make sure they are in shape to do so (and if they're not,
+that they have some other way around it).
