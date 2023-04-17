@@ -136,26 +136,44 @@ their team together and protect them.
 
 * Creating a new character
 ** 1. Roll your attributes
-Roll 3d6 3 times and note down the result each time. These are your attribute
-points. You can choose which attributes to apply them to.
+Roll 3d6 and note down the result. If the total is 9 or less, reroll all the dice.
+Keep rerolling until your total is more than 9. These are your attribute points.
+Youa may choose to reroll once, but you MUST keep the next result with a total
+higher than 9. You can choose which attributes to apply them to.
 
-If you roll beneath 25 points total, you may reroll.
+#+begin_src text
+For example, if you roll a 2, a 3, and a 4, for a total of 9, you would reroll.
+
+If you then rolled a 2, a 3, and a 6, you would keep those scores.
+#+end_src
+
 
 ** 2. Choose a class
 Choose one of the classes above. On the class page, there is a description of
 how to set up your character for first level.
 
+#+begin_src text
+Following from our example above, since you have rolled one very high, one
+average, and one low, you might choose to take one of the classes that
+specialises in a single attribute, like the soldier, mage, or performer.
+
+In this example let's choose the Soldier as our class.
+
+This means we take
+#+end_src
+
 ** 3. Choose your starting equipment
 Take either the standard equipment on the class page, or buy equipment from the
-starting equipment list up to the value of 1000 gold. You do not keep any
+starting equipment list up to the value of 100 gold. You do not keep any
 excess gold, so spend as much as you can.
 
-** 4. Describe your character
+#+begin_src text
+In our soldier example, let's take the standard equipment from the soldier
+class page: a steel cuirass, a round wooden shield, and a short spear.
+#+end_src
+
+** 5. Describe your character
 Come up with a backstory for your character (even if it's short!), and decide
 what their goal is. Then, describe their physical attributes, such as their
-sex and gender presentation, height, weight, skin colour, eye colour, hair
-colour and style, and anything else you can think of.
-
-Remember that your character must be ready to survive long and arduous
-journeys, so make sure they are in shape to do so (and if they're not,
-that they have some other way around it).
+gender, height, weight, skin colour, eye colour, hair colour and style,
+and anything else you can think of.
