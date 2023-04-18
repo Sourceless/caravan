@@ -17,7 +17,7 @@ affect who your character is and their abilities within the world.
 Attributes are about your intrinsic power and potential. You can gain (and
 lose!) attribute points over time.
 
-Attributes fall in the range of 1-20. 10 is an average among adventurers,
+Attributes fall in the range of 1-6. 3-4 is an average among adventurers,
 and 8 is the average amongst commoners. 1 represents complete enfeeblement
 in some regard. 20 represents being the best possible, given mortal constraints.
 
@@ -41,17 +41,12 @@ Refer to the table below to convert attribute scorse to their modifiers
 
 | Attribute Score | Modifier |
 |-----------------+----------|
-|               1 |       -5 |
-|             2-3 |       -4 |
-|             4-5 |       -3 |
-|             6-7 |       -2 |
-|             8-9 |       -1 |
-|           10-11 |        0 |
-|           12-13 |       +1 |
-|           14-15 |       +2 |
-|           16-17 |       +3 |
-|           18-19 |       +4 |
-|              20 |       +5 |
+|               1 |       -2 |
+|               2 |       -1 |
+|               3 |        0 |
+|               4 |        0 |
+|               5 |       +1 |
+|               6 |       +2 |
 
 
 ** Skills
@@ -61,8 +56,11 @@ combination of your abilities to determine a skill score.
 If you can't find a skill to fit a particular situation, use /Improvisation/.
 
 Each skill roll is based on three attribute modifiers, which appear in brackets
-following the skill name. For example, `(BBB)` means you should make a d20 roll
+following the skill name. For example, `(BBB)` means you should make a d6 roll
 with a bonus of three times the body modifier.
+
+For example, if you have a Body Modifier of +2 and you rolled a 3, your total
+would be 5.
 
 Skills:
 *** Athletics (BBB)

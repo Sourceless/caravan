@@ -1,0 +1,140 @@
+#+title: Combat
+#+OPTIONS: ^:{}
+
+* How Combat Works in Caravan
+Combat in Caravan takes place in three phases:
+- Decision phase
+- Initiative phase
+- Action Phase
+
+Each round of combat consists of these three phases in order. The next round
+starts afterwards, and the phases repeat. This continues until one side or
+the other is defeated, or until combat is ended by some other means.
+
+** Decision Phase
+In this phase you choose basic action cards up to your action limit, which
+is defined by your class and level. For example, a Level 1 soldier has
+an action limit of 2. That means the soldier can play 0, 1, or 2 action cards.
+
+Every class gets these basic actions:
+- Attack: Attack an enemy with a weapon or with your body, or use an item
+- Defend: Dodge or deflect attacks with armour or agility
+- Move: Move your character around the battlefield
+
+You may apply any number of action modifier cards to your action cards.
+
+You can have multiples of action and action modifiers, and you may stack their
+effects.
+
+Once you have chosen your actions and modifiers, you must commit them. When
+all players have committed their cards, the decision phase ends. The cards you
+play cannot be changed after you have committed them.
+
+** Initiative Phase
+Each player rolls a d6 and adds their Body modifier, and any initiative bonuses
+they have from items or attack modifiers.
+
+For example, if our soldier rolled a 3, with a body modifier of +1, then your
+initiative would be 4. If, on top of that, you had played an attack action with
+the 'Swift Attack' modifier, you would add an extra +2 to your initiative
+modifier for a total of 6.
+
+To break ties:
+- Players always go before NPCs at the same initiative.
+- If two players have the same initiative, whoever rolled higher goes first.
+- If their initiative is the same and their rolls were the same, they
+  may decide between themselves, or flip a coin.
+
+** Action Phase
+Once initiatives are decided, players and NPCs take their actions in order
+from highest to lowest. Players may use their committed actions in any order.
+
+Some actions activate immediately, while some activate until the end of the turn,
+and others activate only when a specific condition is met. The Defend action,
+for example, is active from the beginning of the Action Phase, regardless of
+initiative.
+
+Each action can only be used once during the action phase.
+
+Once your actions are played, return, discard, or destroy actions according to
+their descriptions:
+- Return: put the card back in your hand. You may use it again in the next
+  round.
+- Discard: put the card in your discard pile. You may use it again once your
+  character has rested.
+- Destroy: remove this card from your character and return it to the game
+  master.
+
+* Standard Actions
+** Attacking and Defending
+To make an attack, use the attack action. When you use the attack action, roll a
+d6 and add your body modifier, as well as any modifier granted by the weapon you
+are attacking with, any action modifiers, and modifiers from any other items you
+are carrying.
+
+The defender's default defence value is their body modifier, plus the bonuses
+granted by any armour, shields, effects, items, and defence actions.
+
+If you beat their total defence score, you land a hit. The difference between
+your hit value and their defence value is deducted first from the durability of
+any shield they aare wielding (including magical shields), then from any armour,
+then from their health.
+
+If a shield or armour hits 0 durability, it is rendered useless. You may keep the
+item, but it is unusable until repaired.
+
+** Moving
+To move, use the move action and move according to the movement speed on the card,
+plus your body modifier, plus any action modifiers on the move card.
+
+* Other actions
+Classes and items may grant you other actions. To use these actions, follow the
+instructions on their card.
+
+* Health
+You have 1 health point. If you lose it, you are knocked down, and unable to
+continue fighting. If you are hit again while knocked down - your character
+dies.
+
+If everyone in your party is knocked down, you are at the mercy of your
+opponents. At best case you may be imprisoned, and at worst -- eaten.
+
+You can sacrifice equipment to avoid losing your health point. The equipment is
+destroyed irreparably and you must give it back to the GM. You can do this with
+items at 0 durability.
+
+If you are knocked down, you gain an injury. You will roll a d6 against the
+injury table, and will keep that debuff until you have rested 3 times, or have
+been attended to by a doctor.
+
+If you injure a body part again before it is healed, the injury becomes
+crippled. If you are injured twice on a crippled body part, it is lost.
+
+| Roll | Body part | Injured              | Crippled                       | Lost                                         |
+|------+-----------+----------------------+--------------------------------+----------------------------------------------|
+|    1 | Off hand  | -1 to defence        | Permanent -1 to defence        | Lose off-hand slot                           |
+|    2 | Left leg  | -1 to movement speed | Permanent -1 to movement speed | Permanent -2 to movement speed [fn:1] |
+|    3 | Right leg | -1 to movement speed | Permanent -1 to movement speed | Permanent -2 to movement speed [fn:1] |
+|    4 | Torso     | -1 to body modifier  | Permanent -1 to body modifier  | Death                                        |
+|    5 | Main hand | -1 to attack         | Permanent -1 to attack         | Lose main hand slot                          |
+|    6 | Head      | -1 to mind modifier  | Permanent -1 to mind modifier  | Death                                        |
+
+ [fn:1: If you lose both legs, your legs slot is also lost.]
+
+** Note to GMs
+Crippling and Loss should be rare, and should be a direct result of players'
+decisions, and *never* used as a punishment for an annoying player or a debuff
+of a powerful players.
+
+If a player requests to create a character that already has crippled or lost
+limbs, remind them that their are serious gameplay implications. At your
+discretion, you may issue items or features to characters that have in some
+way adapted, but you should to this sparingly.
+
+* Death
+Death is not necessarily forever in Caravan. There are priests, necromancers,
+gods, demons, and spirits who might choose to bring you back. Such events are
+rare and legendary, though; and those who ressurect you may require something
+in return.
+
+It is always the player's choice if their character can be resurrected.
